@@ -1,0 +1,354 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LEGO Маркет — магазин конструкторов</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="glow glow-3"></span>
+    <span class="studs"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span>Бесплатная доставка от 4 990 ₽</span>
+        <span>Самовывоз через 2 часа</span>
+        <span>Подарки к выходным</span>
+      </div>
+    </div>
+
+    <div class="container nav-bar">
+      <div class="logo">
+        <div class="logo-box">LEGO</div>
+        <div class="logo-text">
+          <strong>Мир конструктора</strong>
+          <span>официальный магазин</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#">Каталог</a>
+        <a href="#">Новинки</a>
+        <a href="#">Серии</a>
+        <a href="#">Подарки</a>
+        <a href="#">Скидки</a>
+      </nav>
+
+      <div class="nav-actions">
+        <label class="search">
+          <span>Поиск</span>
+          <input type="search" placeholder="Найти набор или серию">
+        </label>
+        <button class="btn btn-primary" type="button">Корзина (2)</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text reveal">
+        <div class="pill-group">
+          <span class="pill">Эксклюзив недели</span>
+          <span class="pill pill-accent">-20%</span>
+        </div>
+        <h1>Собери свой мир из кубиков LEGO</h1>
+        <p>
+          Большие наборы, коллекции по фильмам и редкие минифигурки.
+          Собирай, играй, дари и вдохновляйся новыми историями.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#">Перейти в каталог</a>
+          <a class="btn btn-outline" href="#">Смотреть коллекции</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">250+</span>
+            <span class="stat-label">наборов в наличии</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">18</span>
+            <span class="stat-label">серий на выбор</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">48 ч</span>
+            <span class="stat-label">доставка по городу</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card reveal delay-2">
+        <div class="hero-badge">Набор недели</div>
+        <div class="brick-stack">
+          <div class="brick brick-red"></div>
+          <div class="brick brick-yellow"></div>
+          <div class="brick brick-blue"></div>
+        </div>
+        <div class="hero-details">
+          <div>
+            <h3>Космическая экспедиция</h3>
+            <p>1 200 деталей | 10+</p>
+          </div>
+          <div class="price-tag">12 990 ₽</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo container">
+      <article class="promo-card reveal delay-1">
+        <h3>Собери и забери</h3>
+        <p>Экспресс-сборка в магазине за 90 минут по записи.</p>
+        <a class="link-arrow" href="#">Узнать условия</a>
+      </article>
+      <article class="promo-card reveal delay-2">
+        <h3>Только онлайн</h3>
+        <p>Эксклюзивные наборы, которых нет на полках магазинов.</p>
+        <a class="link-arrow" href="#">Открыть коллекцию</a>
+      </article>
+      <article class="promo-card reveal delay-3">
+        <h3>Подарочная упаковка</h3>
+        <p>Стильные коробки и открытки для идеального подарка.</p>
+        <a class="link-arrow" href="#">Добавить к заказу</a>
+      </article>
+    </section>
+
+    <section class="collections container">
+      <div class="section-title">
+        <h2>Собери свою историю</h2>
+        <p>Выбирай серии по возрасту, теме или любимому фильму.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card reveal">
+          <div class="category-visual visual-city"></div>
+          <h3>City</h3>
+          <p>Город, полиция, пожарные и транспорт.</p>
+          <a class="link-arrow" href="#">Смотреть</a>
+        </article>
+        <article class="category-card reveal delay-1">
+          <div class="category-visual visual-space"></div>
+          <h3>Space</h3>
+          <p>Космические станции и ракеты для исследователей.</p>
+          <a class="link-arrow" href="#">Смотреть</a>
+        </article>
+        <article class="category-card reveal delay-2">
+          <div class="category-visual visual-ninja"></div>
+          <h3>Ninjago</h3>
+          <p>Драконы, ниндзя и легендарные битвы.</p>
+          <a class="link-arrow" href="#">Смотреть</a>
+        </article>
+        <article class="category-card reveal delay-3">
+          <div class="category-visual visual-creator"></div>
+          <h3>Creator 3в1</h3>
+          <p>Три модели из одного набора и море идей.</p>
+          <a class="link-arrow" href="#">Смотреть</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <div class="section-title">
+        <h2>Хиты и новинки</h2>
+        <p>Горячие релизы и любимые наборы покупателей.</p>
+      </div>
+      <div class="set-grid">
+        <article class="set-card reveal">
+          <div class="set-visual set-city"></div>
+          <div class="set-info">
+            <div class="set-meta">
+              <span class="tag">Хит</span>
+              <span class="pill">8+</span>
+              <span class="pill">764 дет.</span>
+            </div>
+            <h3>Городской экспресс</h3>
+            <p>Станция, поезд и минифигурки пассажиров.</p>
+            <div class="set-bottom">
+              <span class="price">7 990 ₽</span>
+              <button class="btn btn-ghost" type="button">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="set-card reveal delay-1">
+          <div class="set-visual set-space"></div>
+          <div class="set-info">
+            <div class="set-meta">
+              <span class="tag tag-accent">Новинка</span>
+              <span class="pill">10+</span>
+              <span class="pill">1 045 дет.</span>
+            </div>
+            <h3>Орбитальная база</h3>
+            <p>Модульная станция с лабораторией и роботом.</p>
+            <div class="set-bottom">
+              <span class="price">11 490 ₽</span>
+              <button class="btn btn-ghost" type="button">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="set-card reveal delay-2">
+          <div class="set-visual set-ninja"></div>
+          <div class="set-info">
+            <div class="set-meta">
+              <span class="tag">Скидка</span>
+              <span class="pill">9+</span>
+              <span class="pill">899 дет.</span>
+            </div>
+            <h3>Дракон Кая</h3>
+            <p>Подвижные крылья и сцена финальной битвы.</p>
+            <div class="set-bottom">
+              <span class="price">6 990 ₽</span>
+              <button class="btn btn-ghost" type="button">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="set-card reveal">
+          <div class="set-visual set-creator"></div>
+          <div class="set-info">
+            <div class="set-meta">
+              <span class="tag tag-dark">3в1</span>
+              <span class="pill">7+</span>
+              <span class="pill">421 дет.</span>
+            </div>
+            <h3>Уютный домик</h3>
+            <p>Две альтернативные модели и детали интерьера.</p>
+            <div class="set-bottom">
+              <span class="price">4 290 ₽</span>
+              <button class="btn btn-ghost" type="button">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="set-card reveal delay-1">
+          <div class="set-visual set-art"></div>
+          <div class="set-info">
+            <div class="set-meta">
+              <span class="tag tag-accent">Эксклюзив</span>
+              <span class="pill">18+</span>
+              <span class="pill">2 605 дет.</span>
+            </div>
+            <h3>Мозаика Marvel</h3>
+            <p>Большая настенная композиция для фанатов.</p>
+            <div class="set-bottom">
+              <span class="price">15 990 ₽</span>
+              <button class="btn btn-ghost" type="button">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="set-card reveal delay-2">
+          <div class="set-visual set-technic"></div>
+          <div class="set-info">
+            <div class="set-meta">
+              <span class="tag">Хит</span>
+              <span class="pill">11+</span>
+              <span class="pill">1 320 дет.</span>
+            </div>
+            <h3>Техник — раллийный болид</h3>
+            <p>Детализированная подвеска и моторный отсек.</p>
+            <div class="set-bottom">
+              <span class="price">9 790 ₽</span>
+              <button class="btn btn-ghost" type="button">В корзину</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="story container">
+      <div class="story-card reveal">
+        <h2>Идеи для сборки</h2>
+        <p>
+          Сценарии, готовые комнаты для городов, тематические подборки
+          и советы от мастеров LEGO.
+        </p>
+        <a class="btn btn-outline" href="#">Открыть вдохновение</a>
+      </div>
+      <div class="story-card story-card-alt reveal delay-1">
+        <h2>Построй свой набор</h2>
+        <p>
+          Подбери детали, цвета и минифигурки в онлайн-конструкторе.
+        </p>
+        <a class="btn btn-dark" href="#">Начать проект</a>
+      </div>
+    </section>
+
+    <section class="club container">
+      <div class="club-card reveal">
+        <div class="club-text">
+          <h2>Клуб строителей</h2>
+          <p>
+            Бонусы за каждую покупку, ранний доступ к релизам
+            и персональные предложения.
+          </p>
+          <div class="club-actions">
+            <button class="btn btn-primary" type="button">Вступить</button>
+            <button class="btn btn-ghost" type="button">Узнать больше</button>
+          </div>
+        </div>
+        <div class="club-list">
+          <div>
+            <span class="club-number">+7%</span>
+            <span class="club-label">кэшбек баллами</span>
+          </div>
+          <div>
+            <span class="club-number">2 дня</span>
+            <span class="club-label">предзаказ для участников</span>
+          </div>
+          <div>
+            <span class="club-number">365</span>
+            <span class="club-label">идей для сборки</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo logo-footer">
+          <div class="logo-box">LEGO</div>
+          <div class="logo-text">
+            <strong>Мир конструктора</strong>
+            <span>официальный магазин</span>
+          </div>
+        </div>
+        <p class="footer-note">
+          Рабочий проект для лабораторной работы. Дизайн вдохновлен магазином LEGO.
+        </p>
+      </div>
+      <div>
+        <h4>Покупателям</h4>
+        <a href="#">Доставка и оплата</a>
+        <a href="#">Обмен и возврат</a>
+        <a href="#">Подарочные карты</a>
+      </div>
+      <div>
+        <h4>Сервисы</h4>
+        <a href="#">Сборка по записи</a>
+        <a href="#">Личный кабинет</a>
+        <a href="#">Список желаний</a>
+      </div>
+      <div>
+        <h4>О компании</h4>
+        <a href="#">Новости</a>
+        <a href="#">Вакансии</a>
+        <a href="#">Контакты</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 LEGO Маркет</span>
+      <span>Политика конфиденциальности</span>
+    </div>
+  </footer>
+</body>
+</html>
